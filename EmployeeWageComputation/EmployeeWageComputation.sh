@@ -42,4 +42,7 @@ tn[$totalWorkingHour]=${totalSalary[*]}
 d[$day]=${day[*]}
 done
 
+echo "Daily Wage: ["${n[*]}"]"
+echo "Total Wage: ["${tn[*]}"]"
+
 echo "Employee has earned $totalSalary $ in a month (Total working Hour : $totalWorkingHour)";
